@@ -1,4 +1,4 @@
-package gae.jersey.a1;
+package gae.resteasy.a1;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -13,7 +13,7 @@ public class HelloResource {
     @Produces("application/xml") 
     public Hello createPersonByXml() { 
         Hello p = new Hello();
-        p.setName("Helloworld by xml, by jersey");
+        p.setName("Helloworld by xml, by resteasy");
         return p;
     } 
 
@@ -22,7 +22,7 @@ public class HelloResource {
     @Produces("application/json") 
     public Hello createPersonByJson() { 
         Hello p = new Hello();
-        p.setName("Helloworld by json, by jersey");
+        p.setName("Helloworld by json, by resteasy");
         return p;
     }
 
@@ -30,7 +30,7 @@ public class HelloResource {
     @Path("{id}")
     public String findPerson(@PathParam("id") String id){
         Hello p = new Hello();
-        p.setName("Helloworld " + id + ", by jersey");
+        p.setName("Helloworld " + id + ", by resteasy");
         return p.getName();
     }
 }
