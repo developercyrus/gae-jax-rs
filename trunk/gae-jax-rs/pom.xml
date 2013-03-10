@@ -159,9 +159,9 @@
 		    <artifactId>jaxb-api</artifactId>
 		    <version>2.2.7</version>
 		</dependency>
+		
             
-            
-        <!-- jaxrs implemetation -->            
+        <!-- jaxrs implemetation by jersey (sun)-->            
 		<dependency>
 		    <groupId>com.sun.jersey</groupId>
 		    <artifactId>jersey-server</artifactId>
@@ -181,7 +181,35 @@
 		</dependency>
             
 
-                        
+        <!-- jaxrs implemetation by resteasy (jboss) -->                 
+		<dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>resteasy-jaxrs</artifactId>
+		    <version>3.0-beta-3</version>
+		</dependency>
+               
+		<dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>resteasy-jaxb-provider</artifactId>
+		    <version>3.0-beta-3</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>resteasy-jackson-provider</artifactId>
+		    <version>3.0-beta-3</version>
+		</dependency>
+        
+        <!--                     
+		<dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>resteasy-jaxrs-all</artifactId>
+		    <version>3.0-beta-3</version>
+		    <type>pom</type>                             
+		    <scope>provided</scope>
+		</dependency>               
+        -->
+                          
     </dependencies>
 
 </project>
