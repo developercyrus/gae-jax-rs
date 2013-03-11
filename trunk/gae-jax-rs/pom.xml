@@ -167,21 +167,18 @@
 		    <artifactId>jersey-server</artifactId>
 		    <version>1.17.1</version>
 		</dependency>
-		
+
 		<dependency>
 		    <groupId>com.sun.jersey</groupId>
 		    <artifactId>jersey-bundle</artifactId>
 		    <version>1.17.1</version>
 		</dependency>
-		            
-		<dependency>
-		    <groupId>com.sun.jersey</groupId>
-		    <artifactId>jersey-client</artifactId>
-		    <version>1.17.1</version>
-		</dependency>
             
 
+
+    
         <!-- jaxrs implemetation by resteasy (jboss) -->                 
+		<!-- 
 		<dependency>
 		    <groupId>org.jboss.resteasy</groupId>
 		    <artifactId>resteasy-jaxrs</artifactId>
@@ -199,6 +196,7 @@
 		    <artifactId>resteasy-jackson-provider</artifactId>
 		    <version>3.0-beta-3</version>
 		</dependency>
+        -->
         
         <!--                     
 		<dependency>
