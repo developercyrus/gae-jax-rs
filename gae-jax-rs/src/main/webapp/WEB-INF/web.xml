@@ -20,6 +20,7 @@
    
     
     <!-- resteasy -->
+    <!-- 
     <context-param>
         <param-name>resteasy.scan.resources</param-name>
         <param-value>true</param-value>
@@ -39,7 +40,7 @@
         <servlet-name>resteasy-servlet</servlet-name>
         <url-pattern>/resteasy/*</url-pattern>
     </servlet-mapping>
-    
+    -->
     
 
 </web-app>       
